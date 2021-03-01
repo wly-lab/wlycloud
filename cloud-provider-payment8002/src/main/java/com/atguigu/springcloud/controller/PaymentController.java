@@ -56,7 +56,7 @@ public class PaymentController {
     public Object discovery(){
         List<String> services = discoveryClient.getServices();
         for(String service:services){
-            log.info("****com.atguigu.springcloud.service:"+service);
+            log.info("****com.atguigu.com.atguigu.springcloud.service:"+service);
         }
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
         for (ServiceInstance instance : instances) {

@@ -8,12 +8,12 @@ spring:
         config:
             server:
                 git:
-                    #          uri: git@github.com/wly-lab/springcloud-config.git #GitHub上面的git仓库名字
-                    #          uri: git@github.com:wly-lab/springcloud-config.git
-                    uri: https://github.com/wly-lab/springcloud-config.git #GitHub上面的git仓库名字
+                    #          uri: git@github.com/wly-lab/com.atguigu.springcloud-config.git #GitHub上面的git仓库名字
+                    #          uri: git@github.com:wly-lab/com.atguigu.springcloud-config.git
+                    uri: https://github.com/wly-lab/com.atguigu.springcloud-config.git #GitHub上面的git仓库名字
                     ####搜索目录
                     search-paths:
-                        - springcloud-config
+                        - com.atguigu.springcloud-config
             ####读取分支
             label: master
     #rabbitmq相关配置
