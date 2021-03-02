@@ -57,6 +57,7 @@ public class OrderController {
         ServiceInstance serviceInstance = myLB.instances(instances);
         URI uri = serviceInstance.getUri();
     return  restTemplate.getForObject(uri+"/payment/lb",String.class);
+    }
 
     }
 

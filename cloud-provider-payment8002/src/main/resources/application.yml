@@ -29,5 +29,5 @@ eureka:
       prefer-ip-address: true
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  type-aliases-package: com.atguigu.com.atguigu.springcloud.entities    # 所有Entity别名类所在包
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
 
